@@ -13,9 +13,8 @@ placeholders once the text catalogue and display path are proven
 MIT (LICENSE); credits in NOTICE. All shipped writing and audio are original to this project.
 
 Support and issues go through the issue tracker only:
-https://github.com/cubealgos/villager_voices/issues.
+https://github.com/cubealgos-mods/villager_voices/issues.
 
-Source: https://git.cubealgos.de/cubealgos/villager_voices (Forgejo, the home of this repository).
-Mirror: https://github.com/cubealgos/villager_voices, read-only code, and the issue tracker.
+Source: https://github.com/cubealgos-mods/villager_voices.
 
 Development: `just --list`. The specification is `docs/spec/`.

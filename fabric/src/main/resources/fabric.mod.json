@@ -8,8 +8,8 @@
     "Cube Algos"
   ],
   "contact": {
-    "sources": "https://git.cubealgos.de/cubealgos/villager_voices",
-    "issues": "https://github.com/cubealgos/villager_voices/issues"
+    "sources": "https://github.com/cubealgos-mods/villager_voices",
+    "issues": "https://github.com/cubealgos-mods/villager_voices/issues"
   },
   "license": "MIT",
   "environment": "*",
