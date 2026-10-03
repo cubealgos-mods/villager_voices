@@ -23,7 +23,7 @@ only, before any recorded audio.
 | change the config or save format | `docs/spec/contracts/data-contract.md` |
 | add a dependency | `docs/spec/decisions/DEC-003-licence.md` (MIT) and heimathafen's dependency policy |
 | name, describe, or write anything player-facing | the compliance rule below |
-| commit | scope `villager_voices`, the ticket key (`VV-N`) in the subject |
+| commit | scope `villager_voices`, the GitHub issue number in the subject, `(#N)`; old gitkontor keys (`VV-N`) stay valid in history |
 
 ## Compliance rule
 
@@ -37,10 +37,12 @@ project, never third-party content (`docs/spec/decisions/DEC-003-licence.md`).
 ## Working here
 
 ```
-kontor claim VV-N
-kontor branch new VV-N <slug>
+gh issue view N
+git switch -c <type>/N-<slug> origin/development
 just check
 ```
+
+Work is tracked in GitHub issues: one issue per change, one branch `<type>/N-<slug>` off `development`, one pull request per issue, plain merge. The `gitkontor/data` branch is the archive of the former ticket system (keys `VV-N`); it stays untouched and is no longer written to.
 
 `just --list` shows the task surface; `just spec-sync` refreshes `docs/spec/` from the vault; `just map` regenerates the map.
 
