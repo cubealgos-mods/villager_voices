@@ -57,7 +57,7 @@ render-state side channel and EMF variable are client-only (`domains/compat.md`)
 | ETF | No | No interaction exists either way (research §D3) |
 | Fresh Animations (or any pack reading the variable) | No | Same as EMF absent — no mouth movement, everything else unchanged |
 
-## CI matrix (Woodpecker), one job per shipped combination
+## CI matrix (checked locally), one job per shipped combination
 
 At the alpha: one job (Fabric 26.2). Each fast-follow adds exactly one job for its own
 loader/version pair, never a combinatorial rebuild of the others — the module boundary
